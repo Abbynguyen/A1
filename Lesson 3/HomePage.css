@@ -1,0 +1,27 @@
+* {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: hsl(198, 42%, 95%);
+}
+
+#text-blue {
+    color: rgba(35, 155, 211, 0.856);
+    font-weight: 1000;
+    font-style: 1000;
+}
+hr {
+    border: 2px dashed rgb(65, 166, 212);
+}
+
+.fa-heart {
+    color: rgb(219, 73, 73);
+}
+
+#pic{
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
