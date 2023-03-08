@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu1{
+    box-sizing: border-box;
+    background: cornflowerblue;
+    width: 250px;
+    height: 500px;
+    margin: 20px;
+}
+
+.menu1 .submenu1a{
+    position: relative;
+    top: 3%;
+    left: 2%;
+    box-sizing: border-box;
+    background: rgb(236, 142, 107);
+    width: 220px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.menu1 .submenu1b{
+    position: relative;
+    top: 3%;
+    left: 2%;
+    box-sizing: border-box;
+    background: rgb(236, 142, 107);
+    width: 220px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.menu1 .submenu1c{
+    position: relative;
+    top: 3%;
+    left: 2%;
+    box-sizing: border-box;
+    background: rgb(236, 142, 107);
+    width: 220px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.menu1 .submenu1d{
+    position: relative;
+    top: 3%;
+    left: 2%;
+    box-sizing: border-box;
+    background: rgb(236, 142, 107);
+    width: 220px;
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+}
+
+#copy{
+    position: relative;
+    top: 45%;
+    left: 23%;
+}
+
+.menu2{
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    box-sizing: border-box;
+    background: rgb(245, 237, 237);
+    width: 220px;
+    height: 200px;
+}
+
+.menu2 .submenu2{
+    position: relative;
+    box-sizing: border-box;
+    top: 0%;
+    left: 0%;
+    background: rgb(236, 142, 107);
+    width: 220px;
+    height: 50px;
+    padding: 15px;
+}
+
+.menu1 .menu2{
+    display: none;
+}
+
+.menu1 .submenu1b:hover .menu2{
+    display: block;
+}
+
+
+.mn1{
+    box-sizing: border-box;
+    position: relative;
+    top: -520px;
+    left: 800px;
+    height: 50px;
+    width: 470px;
+    background: rgb(171, 240, 103);
+}
+
+.mn1 .smn1a{
+    box-sizing: border-box;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    height: 40px;
+    width: 150px;
+    background: rgb(240, 155, 201);
+    padding: 8px;
+}
+
+.mn1 .smn1b{
+    box-sizing: border-box;
+    position: relative;
+    top: -35px;
+    left: 160px;
+    height: 40px;
+    width: 150px;
+    background: rgb(240, 155, 201);
+    padding: 8px;
+}
+
+.mn1 .smn1c{
+    box-sizing: border-box;
+    position: relative;
+    top: -29px;
+    left: 140px;
+    height: 40px;
+    width: 150px;
+    background: rgb(240, 155, 201);
+    padding: 8px;
+}
+
+.mn2{
+    position: absolute;
+    top: 60px;
+    left: -40px;
+    box-sizing: border-box;
+    background: rgb(226, 107, 107);
+    width: 220px;
+    height: 200px;
+    padding: 15px;
+}
+
+.mn2 .smn2{
+    position: relative;
+    box-sizing: border-box;
+    top: -15px;
+    left: -15px;
+    background: rgb(226, 107, 107);
+    width: 220px;
+    height: 50px;
+    padding: 15px;
+}
+
+.mn1 .mn2{
+    display: none;
+}
+
+.mn1 .smn1b:hover .mn2{
+    display: block;
+}
