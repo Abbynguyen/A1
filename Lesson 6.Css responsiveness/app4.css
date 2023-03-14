@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body .blue{
+    color: rgb(72, 95, 209);
+}
+body .date, .nick{
+    color: rgb(122, 142, 88);
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    background-color: rgb(250, 250, 250);
+    padding: 1rem;
+}
+
+.name1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name1-1{
+    display: flex;
+    flex-direction: column;
+}
+.ava{
+    height: 2rem;
+    border-radius: 50%;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: rgb(122, 142, 88);
+}
+.fa-face-laugh-wink{
+    color: rgb(255, 210, 87)
+}
+.fa-handshake{
+    color: rgb(255, 210, 87)
+}
+.box3 .fa-heart{
+    color: rgb(59, 183, 109)
+}
+.fa-thumbs-up{
+    color: rgb(255, 210, 87)
+}
+@media screen  and (min-width:560px) and (max-width:800px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen  and (max-width:560px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+    }
+    
+}
